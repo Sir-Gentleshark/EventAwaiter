@@ -17,10 +17,10 @@ namespace WpfApp1
     /// <summary>
     /// Логика взаимодействия для Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class DataWindow : Window
     {
-        public TaskCompletionSource<string> tcs;
-        public Window1()
+        public TaskCompletionSource<string>? tcs;
+        public DataWindow()
         {
             InitializeComponent();
         }
